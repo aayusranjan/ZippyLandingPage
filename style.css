@@ -1,0 +1,589 @@
+/* body{
+    margin: 0;
+    margin-top: -25px;
+}
+
+.wrapper>h1{
+    color: #fff;
+}
+.nav-items{
+    text-align: center;
+}
+li{
+    display: inline-block;
+    
+}
+li>a{
+    text-decoration: none;
+    color: #fff;
+    padding: 0 1.5em 0;
+} */
+/* task
+add scrool left to right */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+}
+
+.first_section_background_color {
+    background-color: black;
+}
+.logo{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.nav-items{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+li{
+    list-style: none;
+}
+.nav-items a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+}
+.nav-items a:hover{
+    color: rgb(240, 240, 98);
+}
+
+.first_section_image {
+  height: 750px;
+  width: 1200;
+}
+
+.first_section_data {
+  padding: 0 25%;
+  text-align: left;
+  position: absolute;
+  top: 14rem;
+}
+/* .header-content{
+    background: url(https://images.pexels.com/photos/3745234/pexels-photo-3745234.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) no-repeat center center;
+    background-size: cover;
+    height: 770px;
+    margin-top: -70px;
+} */
+/* make a div section to make these in side by using width 70% likethat */
+/* .header-content .header-heading{
+    color: #fff;
+    text-align: center;
+    padding-top: 300px;
+} */
+/* .header-content .header-wrapper{
+    padding-top: 300px;
+    margin: auto;
+    width: 60%;
+} */
+/* .header-content .header-heading{
+    font-size: 55px;
+} */
+/* .header-content .description{
+    color: #fff;
+    padding-top: 2em;
+    font-size: 22px;
+} */
+/* span::before{
+    content: "\a";
+    white-space: pre;
+} */
+/* .header-content .button{
+    color: #fff;
+    padding-top: 2em;
+} */
+/* .header-content button{
+    padding: 10px;
+    letter-spacing: 2px;
+    border: none;
+    background-color: rgb(99, 12, 99);
+    color: #fff;
+} */
+/* .header-content button:hover{
+    background-color: rgb(240, 240, 98);
+    color: #000;
+    border: none;
+    cursor: pointer;
+} */
+
+/* work more on welcome section */
+.welcome-section{
+    background-color: rgb(220, 208, 208);
+    /* background-size: cover; */
+    /* height: 400px; */
+}
+.welcome-section .welcome-wrapper{
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+}
+.welcome-heading{
+    padding-top: 2em;
+    font-size: 50px;
+    text-align: center;
+}
+.icon{
+    float: right;
+}
+.welcome-content{
+    padding-top: 2em;
+}
+.welcome-section .des{
+    color: rgb(128, 118, 118);
+    width: 50%;
+    padding: 2em;
+}
+.welcome-items{
+    display: flex;
+}
+.welcome-items-list{
+    margin: auto;
+    width: 25%;
+}
+.title1{
+    text-align: center;
+}
+.title-des1{
+    color: rgb(68, 72, 76);
+    text-align: center;
+}
+.welcome-btn{
+    text-align: center;
+    padding: 10px;
+}
+.welcome-btn>button{
+    padding: 10px;
+    background-color: rgb(99, 12, 99);
+    color: #fff;
+    border: none;
+}
+.welcome-btn>button:hover{
+    background-color: rgb(240, 240, 98);
+    color: #000;
+    border: none;
+    cursor: pointer;
+}
+.separator{
+    height: 1px;
+    margin: 2rem auto;
+    background-color: #000;
+}
+
+/* Project-items */
+
+.projects-section{
+    overflow-x: hidden;
+    background-color: rgb(220, 208, 208);
+}
+.projects-heading>h4{
+    text-align: center;
+    font-size: 50px;
+}
+.pricing-wrapper{
+    margin: auto;
+    width: 70%;
+    padding: 10px;
+}
+.project-items{
+    display: flex;
+    padding-top: 3em;
+}
+.items-heading{
+    font-size: 20px;
+    font-weight: 600;
+}
+.items-des2{
+    /* padding-left: 20px;
+    text-align: center;
+    padding-bottom: 20px; */
+    margin-right: 5px;
+}
+.project-btn button{
+    /* justify-content: center; */
+    cursor: pointer;
+    padding: 10px;
+    background-color: rgb(99, 12, 99);
+    color: #fff;
+    border: none;
+}
+
+.project-items-card:hover{
+    background-color: rgb(240, 240, 98);
+}
+.project-items-card>img{
+    width: 400px;
+    height: 500px;
+}
+
+/* Pricing-section */
+
+.pricing-heading{
+    padding-top: 2.5em;
+}
+.pricing-heading>h4{
+    text-align: center;
+    font-size: 50px;
+}
+.pricing-section{
+    background-color: rgb(220, 208, 208);
+}
+.items-des{
+    margin: auto;
+    width: 80%;
+    text-align: center;
+}
+.pricing-items-container{
+    padding-top: 2em;
+}
+.pricing-items{
+    display: flex;
+}
+.pricing-btn{
+    text-align: center;
+    padding-top: 10px;
+}
+.pricing-btn button{
+    padding: 10px;
+    width: 30%;
+    background-color: rgb(99, 12, 99);
+    color: #fff;
+    border: none;
+}
+.pricing-btn button:hover{
+    background-color: rgb(240, 240, 98);
+    color: #000;
+}
+.items-heading{
+    text-align: center;
+}
+.price{
+    text-align: center;
+    color: rgb(151, 150, 150);
+    padding: 5px;
+}
+
+/* video-projects-section */
+
+.video-projects-section{
+    background-color: rgb(14, 14, 66);
+}
+.video-projects-heading{
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-size: 40px;
+    text-align: center;
+    color: #fff;
+}
+.video-items{
+    display: flex;
+    overflow: hidden;
+}
+.video-projects-list{
+    margin-left: 5em;
+}
+/* .video-items>li{
+    padding: 10px;
+} */
+
+/* zippy team */
+
+.team-section{
+    /* background-color: rgba(81, 83, 82, 0.768); */
+        background-color: rgb(220, 208, 208);
+
+}
+.team-section{
+    padding-top: 1em;
+    font-size: 40px;
+    text-align: center;
+}
+.life-section{
+    background-color: dimgrey;
+}
+.team-list{
+    display: flex;
+}
+.team-employee>img{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+ /* Team section */
+#team{
+    background-color: rgb(220, 208, 208);
+
+ }
+  #team h2{
+    font-size: 2.2rem;
+  }
+  .team_data{
+  
+    padding: 0 20%;
+    padding-top: 3%;
+  }
+  .team_card{
+    border: 0;
+    padding: 3%;
+  }
+  .member_section_div{
+  margin:0 auto;
+  background-color:#f1679c;
+  height: 145px;
+  width: 145px;
+  border-radius: 100%;
+  }
+  .members_section_icon:hover{
+    cursor: pointer;
+    background-color: #000000;
+  }
+  
+  .members_secton_image{
+    height: 140px;
+    width: 140px;
+  position: relative;
+  top:-26px;
+    border-radius: 100%;
+  }
+  .members_section_icon{
+    height: 25px;
+    padding: 2%;
+    width: auto;
+    position: relative;
+    top: 60px;
+  
+  }
+  .members_secton_image:hover{
+  
+    opacity: 0.4;
+  }
+  .member_section_div:hover .members_section_icon{
+    display: inline;
+    z-index: 999;
+  }
+  .members_section_heading{
+    font-size: 17px;
+    font-weight: 800;
+    font-family: Montserrat;
+  }
+  
+  
+  /* life in zippy */
+  
+  #life_in_zippy{
+    background-color: rgb(211, 211, 211);
+    padding-bottom: 2%;
+  }
+  
+  .life_heading{
+    padding-top:4%;
+  }
+  
+  #featured{
+      max-width:100%;
+      max-height: 600px;
+      object-fit: cover;
+      cursor: pointer;
+  }
+  
+  .thumbnail{
+      object-fit: cover;
+      max-width: 130px;
+      max-height: 700px;
+      cursor: pointer;
+      opacity: 0.8;
+      margin: 5px;
+  
+  
+  }
+  
+  .thumbnail:hover{
+      opacity:1;
+    transform: scale(2);
+  }
+  
+  
+  
+  #slide-wrapper{
+      max-width: 900px;
+    width: 650px;
+    margin: 0 auto;
+      display: flex;
+      min-height: 200px;
+      align-items: center;
+  }
+  
+  #slider{
+      width: 900rem;
+      display: flex;
+      flex-wrap: nowrap;
+      overflow-x: auto;
+  
+  }
+  
+  #slider::-webkit-scrollbar {
+          display: none;
+  }
+  
+  .arrow{
+      width: 30px;
+      height: 87px;
+      cursor: pointer;
+      transition: .3s;
+    background-color: #000000;
+  }
+  .arrow:hover{
+      background-color: #1ebba3;
+  }
+.newsletter{
+    background: url(https://images.pexels.com/photos/457044/pexels-photo-457044.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    height: auto;
+}
+.newsletter-heading{
+    padding-top: 2em;
+    font-size: 40px;
+    text-align: center;
+    color: #fff;
+}
+.signup-box{
+    text-align: center;
+    padding: 5em;
+}
+.signup-box>input{
+    padding: 10px;
+    width: 20%;
+}
+.signup-box>input:hover{
+    
+}
+.signup-box>button{
+    padding: 12px;
+    background-color: rgb(99, 12, 99);
+    color: #fff;
+    border: none;
+}
+.signup-box>button:hover{
+    background-color: rgb(240, 240, 98);
+    color: #000;
+}
+.blog-heading{
+    padding: 1em 0 1em;
+    font-size: 40px;
+    text-align: center;
+}
+.items-heading{
+    padding: 1em 0 1em;
+}
+.blog-items{
+    display: flex;
+}
+.blog-img>img{
+    height: 100%;
+    width: 250px;
+}
+.blog-container{
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+}
+.blog-date{
+    text-align: center;
+    color: rgb(151, 150, 150);
+    padding-bottom: .5em;
+}
+.blog-btn{
+    text-align: center;
+    padding: 20px 0 20px;
+}
+.blog-btn button{
+    padding: 10px 15px 10px;
+    background-color: rgb(106, 103, 106);
+    color: #fff;
+    border: none; 
+}
+.blog-btn button:hover{
+    background-color: rgb(240, 240, 98);
+    color: #000;
+}
+/* contact-section */
+.contact-container{
+    border: 3px solid rgb(125, 40, 40);
+    padding: 2px;
+}
+.contact-child{
+    width: 50%;
+    float: left;
+    padding: 10px;
+    border: 2px solid red;
+}
+
+
+/* contact section */
+
+#contact_section {
+    margin: 0;
+}
+.contact_section_image {
+    max-width: 100%;
+    max-height: 100%;
+}
+.contact_section_div1 {
+    padding: 0;
+}
+.contact_section_div2 {
+    text-align: left;
+    margin: 0;
+    background-color: #ffd451;
+    padding-left: 3%;
+}
+.contact_section_heading {
+    padding: 6% 0 1% 0;
+}
+
+.contact_section_form {
+    padding-left: 2%;
+    width: 300px;
+}
+.contact_section_label {
+    font-size: 12px;
+    font-weight: bold !important;
+  /* this wil override the chrome property of weight */
+}
+.contact_section_button {
+    width: 284px;
+    background-color: #72147e;
+    color: white;
+}
+.contact_section_button:hover {
+    background-color: #93549c;
+    color: white;
+}
+
+/* footer section */
+
+#footer_section {
+    padding: 5% 0;
+}
+.footer_section_data {
+    padding: 0 25%;
+    padding-top: 3%;
+}
+
+i {
+    padding: 2% 5%;
+}
+
+.footer_headings {
+    font-size: 12px;
+    font-weight: 900 !important;
+}
